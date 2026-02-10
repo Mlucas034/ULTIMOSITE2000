@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Concert+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+    
+      
+
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 10px;
+    
+}
+
+.logo,.sociais{
+    width: 100%;
+   
+}
+
+.logo img{
+    width: 100%;
+    
+
+}
+
+
+ .logo2 img{
+    width: 100%;
+   display: flex;
+   margin: 0 auto;
+   padding-right: 60px;
+   
+   
+    
+ }
+ 
+
+
+
+.nave img{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    padding-top: 0%;
+    margin-top: 0%;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+.menu{
+    width: 100%;
+    background-color: black;
+
+    
+
+}
+
+.menu nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-right: 0px;
+    font-size: 25px;
+    position: 100px;
+   padding-left: 0;
+   padding: 30px;
+   justify-content: center;
+   left: 1px;0px;
+     
+    
+}
+
+
+
+
+
+
+
+
+   
+    
+    
+
+
+.menu nav a:hover::after{
+    width: 75px;
+   
+    
+}
+
+
+.sociais button{
+    width: 200px;
+    height: 100px;
+    background-image: linear-gradient(45deg, #0fff57, #08e908);
+    border: none;
+    margin-right: 0px;
+    border-radius: 8px;
+    cursor: pointer;
+    
+    
+   
+
+}
+
+
+
+
+
+
+
+.sociais button i{
+
+    font-size: 80px;
+    height: 10px;
+    color: black;
+    padding-top: 0%;
+    padding: 0px;
+    height: 0px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+.downloads button{
+    width: 110px;
+    height: 80px;
+    background-image: linear-gradient(45deg, #ffffff, #ffffff);
+    border: none;
+   margin-left: 30%;
+   margin-right: 50px;
+    border-radius: 8px;
+    cursor: pointer;
+    align-items: center;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+}
+
+
+
+.downloads button i{
+    font-size: 60px;
+    height: 10px;
+    color: black;
+    padding-right: 2%;
+    
+    
+    
+}
+
+
+.container2{
+    display: grid;
+    place-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 80px;   
+margin: 0%;
+padding: 0%;
+padding-right: 2px;
+padding-top: 0%;
+    
+
+
+}
+
+
+h1{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+
+.sombra{
+    animation: animacaoH1  3s infinite ease-in-out;
+}
+
+
+@keyframes animacaoH1{
+    0%,100%{
+
+    }
+
+    50%{
+        text-shadow: 0 0 10px #00eeff,
+        0 0 20px  #00eeff,
+        0 0 40px #00eeff,
+        0 0 80px #00eeff,
+        0 0 120px #00eeff;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.sites button{
+    width: 100px;
+}
+
+
+
+
+
+body{
+    background-color: black;
+}
+
+
+.icon{
+    position: fixed;
+    right: 20px;
+    font-size: 40px;
+    background-color: #0afd17;
+    color: white;
+    border-radius: 500%;
+    padding: 0px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 100;
+    box-shadow: 2px 2px 2px white;
+    
+   
+    
+}
+    
+    .icon .fab{
+        padding-top: 0px;
+        
+        
+      
+       
+       
+
+    }
+
+
+    .icon:hover{
+        background-color: rgb(255, 255, 255);
+        color: #08e908;
+        font-weight: 90px;
+        box-shadow: 2px 2px 20px #08e908;
+        
+       
+    }
+
+
+    
+
+
+    
+@media screen and (max-width: 1020px){
+
+
+/* CLASSES GERAIS  */
+.logo{
+    flex-direction: column;
+    
+}
+
+
+
+
+    /*  CABEÇALHO  */
+     .menu,.sociais{
+flex-direction: column;
+
+
+     }
+
+
+}
+
+
+.nave{
+    flex-direction: column;
+    
+}
+
+.logo2{
+    flex-direction: column;
+    width: 400px;
+}
+
+
+.logo6{
+    padding-right: 40px;
+    
+}
+
+
+
