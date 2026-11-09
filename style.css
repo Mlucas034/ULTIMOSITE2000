@@ -364,3 +364,13 @@ flex-direction: column;
 
 
 
+/* Ajuste para diminuir o vão abaixo do menu */
+.container {
+    margin-top: -50px !important; /* Empurra a imagem e o texto para cima */
+    padding-top: 0 !important;    /* Remove espaços internos guardados no topo */
+}
+
+.logo img {
+    max-height: 400px; /* Garante que a imagem dos aparelhos não fique gigante ocupando espaço */
+    width: auto;
+}
