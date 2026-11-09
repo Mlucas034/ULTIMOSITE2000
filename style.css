@@ -364,20 +364,3 @@ flex-direction: column;
 
 
 
-/* Ajuste corrigido para o menu não sumir */
-header {
-    position: relative;
-    z-index: 10 !important; /* Garante que o menu fique sempre na frente de tudo */
-}
-
-.container {
-    margin-top: -30px !important; /* Diminuí um pouco para não subir demais */
-    padding-top: 0 !important;
-    position: relative;
-    z-index: 1 !important;  /* Deixa os aparelhos atrás do menu */
-}
-
-.logo img {
-    max-height: 350px; /* Reduzi um pouco a altura para ajudar a diminuir o vão */
-    width: auto;
-}
