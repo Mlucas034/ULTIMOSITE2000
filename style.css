@@ -364,3 +364,25 @@ flex-direction: column;
 
 
 
+/* Deixa o bloco da imagem preparado para receber o botão transparente por cima */
+.link-imagem-completa {
+    position: relative;
+    display: inline-block;
+}
+
+/* Cria a máscara transparente exatamente onde fica o botão verde do Canva */
+.area-clicavel-verde {
+    position: absolute;
+    left: 10%;       /* Posição horizontal do botão verde */
+    bottom: 12%;     /* Distância do fundo da imagem */
+    width: 35%;      /* Largura da área de clique */
+    height: 15%;     /* Altura da área de clique */
+    display: block;
+    background: transparent; /* Mantém 100% invisível */
+    z-index: 5;
+}
+
+/* Transforma a setinha do mouse em mãozinha ao passar pelo botão verde */
+.area-clicavel-verde:hover {
+    cursor: pointer;
+}
