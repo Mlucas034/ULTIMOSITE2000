@@ -299,11 +299,11 @@ body{
     right: 20px;
     font-size: 40px;
     background-color: #0afd17;
-    color: black;
+    color: white;
     border-radius: 500%;
     padding: 0px;
     width: 60px;
-    height: 60px;
+    height: 100px;
     text-align: center;
     text-decoration: none;
     z-index: 100;
