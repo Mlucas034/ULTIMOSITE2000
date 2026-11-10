@@ -101,18 +101,31 @@ header{
 
 }
 
-.menu nav a{
+.menu nav a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding-right: 0px;
-    font-size: 25px;
-    position: 100px;
-   padding-left: 0;
-   padding: 30px;
-   justify-content: center;
-   left: 1px;0px;
-     
+    font-size: 20px;
+    font-weight: bold;
     
+    /* Deixa o botão encorpado (espaçamento interno) */
+    padding: 12px 28px;
+    
+    /* Transforma em bloco/pílula com fundo e bordas arredondadas */
+    background-color: #25d366; /* Cor verde estilo WhatsApp (ou troque pela sua cor) */
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    
+    /* Permite que o padding e margens funcionem perfeitamente */
+    display: inline-block; 
+    margin: 0 10px; /* Espaço entre um botão e outro */
+    
+    /* Efeito suave ao passar o mouse */
+    transition: transform 0.2s ease;
+}
+
+/* Efeito de zoom ao passar o mouse ou tocar */
+.menu nav a:hover {
+    transform: scale(1.05);
 }
 
 
