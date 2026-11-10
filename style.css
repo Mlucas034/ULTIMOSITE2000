@@ -121,7 +121,7 @@ header{
     
     /* Permite que o padding e margens funcionem perfeitamente */
     display: inline-block; 
-    margin: 0 10px; /* Espaço entre um botão e outro */
+    margin: 0 20px; /* Espaço entre um botão e outro */
     
     /* Efeito suave ao passar o mouse */
     transition: transform 0.2s ease;
